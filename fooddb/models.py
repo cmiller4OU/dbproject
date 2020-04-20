@@ -87,7 +87,6 @@ class Customers(models.Model):
     customer_fname = models.CharField(max_length=50)
     customer_id = models.AutoField(primary_key=True)
     customer_lname = models.CharField(max_length=45)
-    customerscol = models.CharField(max_length=45, blank=True, null=True)
     order_id = models.IntegerField()
 
     class Meta:
